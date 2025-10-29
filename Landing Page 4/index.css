@@ -1,0 +1,193 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(212, 144, 167,0.29);
+}
+/*NAV BAR*/
+.nav{
+    width: 100%;
+    height: 8vw;
+    border-bottom: 2px solid rgba(0, 0, 0,0.75);
+    display: flex;
+}
+.p1{
+    height: 100%;
+    width: 17%;
+    font-family: monument;
+    font-size: 1.7vw;
+    padding:2% 4% ;
+}
+.p2{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0% 5% 0% 5%;
+}
+.p2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    border: 2px solid black;
+    padding: 0.3vw 1vw 0.3vw 1vw;
+    border-radius: 25px;
+}
+.p3{
+    height: 100%;
+    width: 18%;
+    text-align: center;
+    padding-top: 1.7vw;
+    font-size: 1.7vw;
+}
+/*Hero Section*/
+.Hero-sec{
+    width: 100%;
+    height: calc(100% - 8vw);
+}
+.Hero-sec h1{
+    font-size: 8.5vw;
+    font-family: arial;
+    position: absolute;
+    z-index: 1;
+    padding: 1.6vw 0vw 0vw 19.2vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.95;
+    letter-spacing: 0vw;
+}
+
+.Hero-sec h2{
+    font-size: 7.99vw;
+    text-align: center;
+    font-family: arial;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.explore{
+height: 8vh;
+width: 12vw;
+background-color:rgb(204,241,127);
+position: absolute;
+border: 1px solid black;
+border-radius: 48%;
+text-align: center;
+font-size:3.7vh;
+padding: 0.86vw;
+margin-left:75.5%;
+transform: rotate(-9deg);
+margin-top: 0.7vh;
+}
+.choose{
+    
+height: 8vh;
+width: 12vw;
+background-color:rgb(204,241,127);
+position: absolute;
+border: 1px solid black;
+border-radius: 48%;
+text-align: center;
+font-size:3.2vh;
+padding: 0.86vw;
+transform: rotate(25deg);
+margin-top: 47vh;
+margin-left: 9%;
+}
+.main-img{
+    height: 52%;
+    width: 65%;
+    position: absolute;
+    margin-left: 15%;
+    border: 2px solid black;
+    border-radius: 48%;
+    background-image: "https://media.istockphoto.com/id/501580650/photo/friends-at-cozy-winter-vacation.jpg?s=1024x1024&w=is&k=20&c=J_VEsLxrbmtJoMK8LK6wiMjeLf8fGiDF23DAsk5arPY=";
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+    background-image: url("https://a.storyblok.com/f/54304/2892x1928/47290ce7e4/fw23-collection-images-winterlisting.png/m/1366x0/filters:quality(60)");
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 48%;
+}
+/*Right Small Images*/
+.sir1{
+height:27vh;
+width:13%;
+position: absolute;
+background-color: aqua;
+border: 1px solid black;
+margin-left: 65%;
+transform: rotate(-25deg);
+margin-top: 12%;
+z-index:1;
+background-image: url("https://cdn.shopify.com/s/files/1/0737/0673/products/socks-blue-pink-argyle-socks-3.jpg?v=1538680578");
+background-position:center;
+background-size: cover;
+border-radius: 2%;
+}
+.sir2{
+    height:27vh;
+    width:13%;
+    position: absolute;
+    background-color:green;
+    border: 1px solid black;
+    margin-left: 66.5%;
+    transform: rotate(-25deg);
+    margin-top: 12.5%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/0673/products/socks-blue-pink-argyle-socks-3.jpg?v=1538680578");
+    background-size:cover;
+    background-position: center;
+    border-radius: 2%;
+
+}
+/*Left Small Images*/
+.sir3{
+    height:27vh;
+    width:13%;
+    background-image: url("https://tse2.mm.bing.net/th/id/OIF.kL4qFvj4w2gUytsGjPgMXw?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 9.5%;
+    transform: rotate(15deg);
+    margin-top:1.5%;
+    z-index: 2;
+    border-radius: 2%;
+
+}
+.sir4{
+    height:27vh;
+    width:13%;
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 8%;
+    transform: rotate(15deg);
+    margin-top:2.0%;
+    background-image: url("https://media.happysocks.com/images/JSS01-9300.png?width=720&format=pjpg&quality=60&auto=webp&bg-color=FFFFFF&disable=upscale");
+    background-size: contain;
+    background-position: center;
+    border-radius: 2%;
+
+}

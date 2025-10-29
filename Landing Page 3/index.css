@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 24vw;
+    height: 65vh;
+    position: relative;
+    top: 4.7%;
+    z-index:1;
+}
+.scrol-div{
+    width: 100%;
+    position: absolute;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 20%;
+}
+.scrol-div h1{
+    display: inline-block;
+    font-size: 18vh;
+    font-family:momentum;
+    letter-spacing:0.45vw;
+    margin-right: 30px;
+    text-transform: uppercase;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+.scrol-div::-webkit-scrollbar{
+    display: none;
+}
+.scrol-div1{
+    width: 100%;
+    position: absolute;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 43%;
+    z-index: 2;
+}
+.scrol-div1 h1{
+    display: inline-block;
+    font-size: 9vw;
+    font-family:momentum;
+    letter-spacing:0.45vw;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.75);
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    margin-right: 30px;
+    text-transform: uppercase;
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+.scrol-div1::-webkit-scrollbar{
+    display: none;
+}
+.scrol-div2{
+    width: 100%;
+    position: absolute;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 65%;
+}
+
+.scrol-div2 h1{
+    display: inline-block;
+    font-size: 9vw;
+    font-family:momentum;
+    letter-spacing:0.45vw;
+    margin-right: 30px;
+    text-transform: uppercase;
+    animation: scroll 1s linear infinite; 
+}
+    .scrol-div2::-webkit-scrollbar{
+    display: none;
+}
+.upper-text{
+    width: 45%;
+    text-align: center;
+    position: absolute;
+    font-size: 3vw;
+    font-family: momentum;
+    z-index: 3;
+    top: 7%;
+}
+@keyframes scroll {
+0%{
+    transform:translateX(calc(-100% - 30px));
+}
+100%{
+    transform:translateX(0);
+}
+}
