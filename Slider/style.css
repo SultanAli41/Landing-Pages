@@ -1,0 +1,66 @@
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #fff;
+  color: rgb(52, 220, 125);
+  -webkit-text-stroke: #150909 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#S1 {
+  background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg");
+}
+#S2 {
+  background-image: url("https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg");
+}
+#S3 {
+  background-image: url("https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg");
+}
+#S4 {
+  background-image: url("https://images.pexels.com/photos/355241/pexels-photo-355241.jpeg");
+}
+#S5 {
+  background-image: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg");
+}
+#S6 {
+  background-image: url("https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg");
+}
+#S7 {
+  background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg");
+}
+#S8 {
+  background-image: url("https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg");
+}
+#S9 {
+  background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg");
+}
