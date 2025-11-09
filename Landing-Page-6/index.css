@@ -122,54 +122,56 @@ width: 100%;
 height: calc( 100% - 13% );
 position: relative;
 }
-.H-Sec h1{
+.H-Sec p{
 width:60%;
 height: 20%;
 font-size: 4.5vw;
 text-align: center;
 left: 20%;
 top: 8%;
-font-family: ARIAL;
+font-family: cooper;
+font-weight: -900;
 position: absolute;
 z-index: 10;
 line-height: 1.2;
+margin-top: 22vh;
+}
+#Sol{
+text-decoration: underline;
 }
 .img-1 img{
-    height: 30vw;
-    width: 21vw;
+    height: 65vh;
+    width: 20vw;
     position: absolute;  
     z-index: 1;
-    top: 20%;
+    top: 14%;
     left: 6%; 
+    transition: all 0.4s ease-in-out;
 }
 .img-2 img{
-    height: 16vw;
-    width: 18vw;
+    height: 35vh;
+    width: 19.5vw;
     position: absolute; 
     z-index: 2;
-    top: 18%;
-    left: 58%;
+    top: 12%;
+    left: 54.5%;
+    transition: all 0.4s ease-in-out;
 }
 .img-3 img{
     position: absolute;
-    height: 16vw;
-    width: 16vw;
+    height: 37.5vh;
+    width: 17vw;
     z-index: 3;
-    top: 35%;
+    top: 43%;
     left: 75%;
+    transition: all 0.4s ease-in-out;
 }
 .img-1 img:hover{
-    top: 19%;
-    transition: all 0.3s ease-in-out;
     transform: translateY(-10px);
 }
 .img-2 img:hover{
-    top: 17%;
-    transition: all 0.3s ease-in-out;
     transform: translateY(-10px);
 }
 .img-3 img:hover{
-    top: 34%;
-    transition: all 0.3s ease-in-out;
     transform: translateY(-10px);
 }
