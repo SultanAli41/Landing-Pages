@@ -129,15 +129,12 @@ font-size: 4.5vw;
 text-align: center;
 left: 20%;
 top: 8%;
-font-family: cooper;
+font-family: Arial, Helvetica, sans-serif;
 font-weight: -900;
 position: absolute;
 z-index: 10;
 line-height: 1.2;
 margin-top: 22vh;
-}
-#Sol{
-text-decoration: underline;
 }
 .img-1 img{
     height: 65vh;
@@ -174,4 +171,32 @@ text-decoration: underline;
 }
 .img-3 img:hover{
     transform: translateY(-10px);
+}
+.lastbtn{
+    position: absolute;
+    height: 10hv;
+    width: 20vw;
+    left: 42%;
+    top: 65%;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.lastbtn a{
+    text-decoration: none;
+    color: black;
+}
+.lastbtn button {
+width: 5vw;
+height: 6vh;
+border: 0.1px solid black;
+border-radius: 1.5vw;
+background-color: transparent;
+font-size: 2.5vw;
+margin-top: 2vh;
+}
+#btn{
+    transform: translateY(-14px);
 }
