@@ -136,6 +136,10 @@ z-index: 10;
 line-height: 1.2;
 margin-top: 22vh;
 }
+.H-Sec p::selection{
+    color:rgb(5, 236, 146) ;
+    background-color:rgb(240, 255, 250) ;
+}
 .img-1 img{
     height: 65vh;
     width: 20vw;
@@ -173,7 +177,7 @@ margin-top: 22vh;
     transform: translateY(-10px);
 }
 .lastbtn{
-    position: absolute;
+    position: relative;
     height: 10hv;
     width: 20vw;
     left: 42%;
@@ -182,6 +186,10 @@ margin-top: 22vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+
+}
+.lastbtn::selection{
+    color:rgb(5, 236, 146) ;
 
 }
 .lastbtn a{
@@ -198,5 +206,24 @@ font-size: 2.5vw;
 margin-top: 2vh;
 }
 #btn{
-    transform: translateY(-14px);
+    transform: translateY(9px);
+    overflow: hidden;
 }
+#btn::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(5, 236, 146);
+    position:absolute;
+    transition: width 0.5s linear;
+    z-index: -1;
+    
+
+}
+#btn:hover::before{
+    width: 100%;
+    
+}
+    
