@@ -1,4 +1,4 @@
-Sure! Here’s plain text you can copy and paste directly into your README file 👇
+ Sure! Here’s plain text you can copy and paste directly into your README file 👇
 
 ---
 
@@ -9,10 +9,9 @@ Additionally, it includes a **modern image/content slider** implemented using **
 
 ## 🚀 Features
 
-* 7 different landing pages (each with a unique design and layout)
+* 7 different landing pages 
 * Built using HTML5, CSS3, and vanilla JavaScript
 * Swiper.js integration for responsive sliders
-* Fully responsive design for all devices
 * Clean and organized code structure
 * Easy to customize and extend
 
@@ -50,7 +49,7 @@ You can explore them individually by opening their respective HTML files in your
 ## ⚙️ How to Use
 
 1. Clone this repository:
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/SultanAli41/Landing-Pages.git)
+   git clone [Repo](https://github.com/SultanAli41/Landing-Pages.git)
 2. Open any landing page folder.
 3. Run the HTML file in your browser (double-click or use Live Server in VS Code).
 4. Explore the Swiper Slider by opening the `swiper-slider/index.html` file.
@@ -76,7 +75,7 @@ Feel free to use, modify, and share it.
 ## 👨‍💻 Author
 
 **Sultan Ali**
-📧 [your.email@example.com](mailto:Sultanalibalouch512@gmail.com)
-💼 [https://github.com/yourusername](https://github.com/SultanAli41)
+📧 [Email](mailto:Sultanalibalouch512@gmail.com)
+💼 [Github](https://github.com/SultanAli41)
 
 ⭐ If you like this project, don’t forget to star the repository!
