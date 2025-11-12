@@ -1,7 +1,3 @@
- Sure! Here’s plain text you can copy and paste directly into your README file 👇
-
----
-
 # 🌐 Multi Landing Pages Project
 
 This repository contains **7 responsive landing pages** built with **HTML, CSS, and a bit of JavaScript**.
