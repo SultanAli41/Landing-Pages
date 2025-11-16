@@ -66,7 +66,7 @@ margin-left: 3vw;
 }
 .hero-text button{
     width: 9vw;
-    height: 5vh;
+    height: 5.5vh;
     border-radius: 0.5vh;
     border: none;
     color: white;
@@ -88,6 +88,9 @@ margin-left: 3vw;
     width: 70%;
     height: auto;  
     animation: Animi 3s ease-in-out infinite alternate  ;
+}
+.hero-img img:hover{
+    animation-play-state: paused;
 }
 @keyframes Animi {
  0%{
