@@ -7,9 +7,93 @@ html,body{
     height: 100%;
     width: 100%;
 }
-.NavBar{
-    height: 10vh;
+.navbar{
+    height: 8vh;
     width: 100vw;
-    background-color: aquamarine;
-    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a{
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+        font-size: 3vh;
+        transition: linear 0.3s ease-in-out;
+}
+.nav-links a:hover{
+color: #0077ff;
+}
+.navbar button{
+    height: 5vh;
+    width: 7vw;
+    border-radius: 1vh;
+    background-color:#0077ff;
+    color: white;
+    border: none;
+    font-size: 2vh;
+}
+/*Hero Section*/
+.hero{
+    width: 100vw;
+    max-height: 92vh;
+    display: flex;
+}
+.hero-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.hero-text h1{
+font-size: 7vh;
+margin-top: 25vh;
+margin-left: 3vw;
+}
+.hero-text p{
+    font-size: 4vh;
+    text-align: start;
+    margin-left: 7vw;
+    margin-top: 2vh;
+}
+.hero-text button{
+    width: 9vw;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border: none;
+    color: white;
+    background-color: #0077ff;
+    font-size: 2.5vh;
+    margin-left: 7vw;
+    margin-top: 2vh;
+}
+/* Hero Image */
+.hero-img {
+    width: 50%;
+    height: 88vh;       
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+
+.hero-img img {
+    width: 70%;
+    height: auto;  
+    animation: Animi 3s ease-in-out infinite alternate  ;
+}
+@keyframes Animi {
+ 0%{
+    transform: translateY(0px);
+ }  
+ 50%{
+    transform: translateY(-20px);
+ }  
 }
